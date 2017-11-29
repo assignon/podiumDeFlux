@@ -1,0 +1,629 @@
+html, body
+{
+
+   margin: 0px;
+   padding: 0px;
+
+}
+
+
+.allMenus
+{
+
+   top: 0px;
+   z-index: 6;
+
+}
+
+
+#settingContainer
+{
+
+
+  margin-bottom: -140px;
+  z-index: 8;
+  /*margin-left: 1050px;*/
+
+}
+
+
+#core
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+.overzichtContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+   margin-bottom: 50px;
+
+}
+
+
+.overzichtContainer h1
+{
+
+   color: #F59C00;
+   position: relative;
+   top: 35px;
+}
+
+
+#curentYear
+{
+
+   margin-top: -30px;
+
+}
+
+
+.overzichtContainer hr
+{
+
+   border: 1px solid #030303;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 90%;
+
+}
+
+
+.yearMonth
+{
+
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+
+.yearMonth select
+{
+
+   width: 45%;
+   height: 35px;
+   border: 1px solid #F59C00;
+   border-radius: 3px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 18px;
+
+}
+
+
+.evtsContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.eventContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   position: relative;
+
+}
+
+
+.month
+{
+
+   width: 350px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   border: 1px solid  #F59C00;
+   border-radius: 3px;
+   background-color:  #030303;
+   position: relative;
+   margin: 10px;
+   padding-bottom: 10px;
+
+
+}
+
+
+.daysOfWeek
+{
+
+   width: 350px;
+   height: 45px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+   margin-bottom: 20px;
+
+}
+
+
+
+.daysOfWeek li
+{
+
+   border: 1px solid #030303;
+   color: white;
+   font-size: 17px;
+   width: 45px;
+   height: 30px;
+   list-style: none;
+   background-color: #F59C00;
+   text-align: center;
+
+
+}
+
+
+.days
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 10px;
+
+}
+
+
+.monthName
+{
+
+   color:white;
+   width: 100%;
+   text-align: center;
+   background-color:  #F59C00;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: -1px;
+
+}
+
+
+.weeks
+{
+
+   width: 45px;
+   height: 45px;
+   border: 1px solid #030303;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   position: relative;
+
+}
+
+
+
+.weeks h4
+{
+
+  position: relative;
+  top: 5px;
+  color: #F59C00;
+  font-size: 15px;
+
+}
+
+
+.weeks h5
+{
+
+  position: relative;
+  color: #030303;
+  font-size: 0px;
+
+}
+
+
+.evtsContent
+{
+
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+    position: fixed;
+    bottom: 0px;
+    z-index: 4;
+    right: 0px;
+    opacity: 0;
+
+}
+
+
+#closeEvtContent
+{
+
+    width: 30px;
+    height: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+
+.evtContentReceiver
+{
+
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.evtContainer
+{
+
+   width: 99%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 2px solid #030303;
+
+}
+
+
+.evtHead
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.evtHead h2
+{
+
+   text-align: center;
+   color: #F59C00;
+
+}
+
+
+.evtHead img
+{
+
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   margin-left: 10px;
+
+}
+
+
+.evtBody
+{
+
+   width: 90%;
+   height: auto;
+   color: #030303;
+   font-size: 18px;
+   text-align: justify;
+
+}
+
+
+.evtFoot
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.evtFoot p
+{
+
+   font-size: 17px;
+   color: #030303;
+   text-align: center;
+
+}
+
+
+.currentDateMonthContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.currentDateMonthContainer h3
+{
+
+    text-align: center;
+    color: #F59C00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.currentDateMonth
+{
+
+   width: 98%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+
+
+.currentDateMonth h4
+{
+
+   color: #030303;
+   text-align: center;
+   width: 9%;
+   padding: 5px;
+   border-right: 1px solid #030303;
+
+}
+
+
+.currentDateMonth h3
+{
+
+  color: #030303;
+  text-align: center;
+  width: 15%;
+   padding: 5px;
+
+}
+
+
+.currentDateMonth p
+{
+
+   text-align: left;
+   font-size: 18px;
+   color: #030303;
+   width: 70%;
+   height: auto;
+   padding: 5px;
+   border-right: 1px solid #030303;
+   border-left: 1px solid #030303;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.evtMore
+{
+
+
+
+}
+
+
+.currentDateMonth p span
+{
+
+   color: blue;
+   text-align: center;
+   font-size: 16px;
+   cursor: pointer;
+   margin-left: 20px;
+
+}
+
+
+.currentDateMonth p span:hover
+{
+
+   color: #F59C00;
+
+}
+
+
+.eventContainer hr
+{
+
+   border: 1px solid #F59C00;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+
+
+@media screen and (max-width: 960px)
+{
+
+    .eventContainer
+    {
+
+       width: 100%;
+
+    }
+
+
+    .currentDateMonth
+    {
+
+        width: 98%;
+
+    }
+
+
+    .currentDateMonth h4, h3, p
+    {
+
+       font-size: 15px;
+       padding: 3px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 510px)
+{
+
+    .month
+    {
+
+       max-width: 90%;
+       height: auto;
+       justify-content: center;
+
+    }
+
+
+    .days
+    {
+
+        margin-left: 10px;
+
+    }
+
+
+  /*  .weeks
+    {
+
+       width: 10%;
+       height: 30px;
+
+    }
+
+
+  /*  .weeks h4, h5
+    {
+
+        font-size: 10px;
+
+    }*/
+
+
+
+    .evtsContent
+    {
+
+        width: 100%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 400px)
+{
+
+  .weeks
+    {
+
+       width: 42px;
+       height: 42px;
+
+    }
+
+
+    .daysOfWeek
+    {
+
+       width: 100%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 330px)
+{
+
+  .weeks
+    {
+
+       width: 38px;
+       height: 38px;
+
+    }
+
+
+    .days
+    {
+
+        margin-left: 4px;
+
+    }
+
+
+}

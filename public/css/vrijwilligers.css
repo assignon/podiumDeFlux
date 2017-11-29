@@ -1,0 +1,1112 @@
+html, body
+{
+
+   padding: 0px;
+   margin: 0px;
+   background-color: #E99400;
+/*   background-image: url(../media/flux_2017-2326.jpg);
+   background-position: center;
+   background-repeat: no-repeat;*/
+
+}
+
+
+#footer
+{
+
+    top: 330px;
+
+}
+
+
+header
+{
+
+   width: 100%;
+
+}
+
+
+.logoCont
+{
+
+
+}
+
+
+
+.allMenus
+{
+
+   top: 15px;
+   z-index: 6;
+
+}
+
+
+
+#settingContainer
+{
+
+  margin-bottom: -140px;
+  z-index: 8;
+  margin-left: 28%;
+
+}
+
+
+
+#container
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+
+}
+
+
+
+/*.vrijwilligersBack
+{
+
+    width: 40%;
+    height: 40%;
+    position: absolute;
+
+}
+
+
+.vrijwilligersBackImg
+{
+
+    position: fixed;
+    background-image: url(../media/flux_2017-2326.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}*/
+
+
+#core
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  /*position: absolute;*/
+
+}
+
+
+.forms
+{
+
+   width: 50%;
+   height: auto;
+   z-index: 7;
+   margin-bottom: -25px;
+   margin-left: 20px;
+   position: relative;
+   bottom: 570px;
+
+}
+
+
+.forms form
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #F59C00;
+   margin-bottom: 20px;
+   position: relative;
+  /* position: absolute;*/
+
+}
+
+
+
+.forms .addNewEvt
+{
+
+   margin-bottom: -371px;
+
+}
+
+
+.forms .updateCurrentEvt
+{
+
+/*   bottom: 430px;*/
+   margin-bottom: -364px;
+   background-color: #021D3E;
+
+}
+
+
+.forms .deleteCurrentEvt
+{
+
+  /* bottom: 880px;*/
+   margin-bottom: -364px;
+
+}
+
+
+.forms form img
+{
+
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 600px;
+
+}
+
+
+.forms form .error
+{
+
+   color: white;
+   font-size: 18px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 25px;
+   width: 80%;
+   height: auto;
+
+}
+
+
+.forms form input
+{
+
+   width: 99.7%;
+   height: 35px;
+   border-bottom: 1px solid #F59C00;
+   border-top: 1px solid #F59C00;
+   border-left: 1px solid #F59C00;
+   border-right: 1px solid #F59C00;
+   font-size: 18px;
+   background-color: white;
+   color: #030303;
+   text-align: center;
+
+}
+
+
+.forms form .dates
+{
+
+   width: 100%;
+   height: auto;
+   margin-bottom: 37px;
+}
+
+
+
+.forms form .dates input
+{
+
+   position: absolute;
+
+}
+
+
+.times
+{
+
+   width: 99.8%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-left: 0px solid #F59C00;
+   border-right: 1px solid #F59C00;
+
+}
+
+
+.forms form .times input
+{
+
+   width: 50%;
+   height: 35px;
+
+}
+
+
+.forms form .times #newEvtBtime
+{
+
+   border-right: 1px solid #F59C00;
+
+}
+
+
+.forms form .times #newEvtEtime
+{
+
+   border-left: 1px solid #F59C00;
+
+}
+
+
+.forms form textarea
+{
+
+    width: 97.5%;
+    height: 150px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    color: #030303;
+    border: 1px solid #F59C00;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+.forms form .colors
+{
+
+   width: 99.7%;
+   height: 35px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-left: 1px solid #F59C00;
+   border-right: 1px solid #F59C00;
+   background-color: white;
+
+}
+
+
+.forms form .colors select
+{
+
+   width: 100%;
+   height: 35px;
+   border: 1px solid #F59C00;
+   font-size: 18px;
+
+}
+
+
+.forms .updateCurrentEvt input, .forms .updateCurrentEvt textarea, .forms .updateCurrentEvt .colors, .forms .updateCurrentEvt .times, .forms .updateCurrentEvt .colors, .forms .updateCurrentEvt .colors select
+{
+
+    border: 1px solid #021D3E;
+
+}
+
+
+.forms form .colors p
+{
+
+   width: 50%;
+   height: auto;
+   color: #030303;
+   text-align: center;
+   font-size: 17px;
+
+}
+
+
+.forms form #addEvt
+{
+
+    background-color: #F59C00;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+
+}
+
+
+.forms form #addEvt:hover
+{
+
+   transition: background-color 1.0s linear 0s;
+   background-color: #D68B07;
+
+}
+
+
+.forms form #updateEvt
+{
+
+    background-color: #021D3E;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+
+}
+
+.forms form #deleteEvt
+{
+
+    background-color: #B00121;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+
+}
+
+
+.forms .deleteCurrentEvt
+{
+
+    background-color: #B00121;
+
+}
+
+
+.forms .deleteCurrentEvt input
+{
+
+    border: 1px solid #B00121;
+
+}
+
+
+
+#contentContainer
+{
+
+   width: 100%;
+   height: 95vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items: flex-end;
+   z-index: 3;
+
+}
+
+
+
+#content
+{
+
+   width: 80%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-right: 530px;
+   position: relative;
+   bottom: 30px;
+
+}
+
+
+#bckImg
+{
+
+   width: 100%;
+   max-height: 80%;
+
+
+}
+
+
+.welcomText
+{
+
+   width: 100%;
+   height: 30%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #E99400;
+   position: relative;
+   margin-top: -100px;
+
+}
+
+
+.welcomText h1
+{
+
+     text-align: center;
+     color: white;
+
+}
+
+
+.welcomText p
+{
+
+   font-size: 20px;
+   color: #030303;
+   text-align: justify;
+   width: 80%;
+   height: auto;
+   margin: auto;
+   margin-bottom: 0px;
+
+}
+
+
+.welcomText h2
+{
+
+   color: #030303;
+   text-align: center;
+
+}
+
+
+.calendarContainer
+{
+
+   width: 514px;
+   height: 82vh;
+   background-color: #030303;
+   position: fixed;
+   top: 5%;
+   padding-top: 130px;
+   padding-left: 15px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+
+#agenda
+{
+
+   width: 500px;
+   height: 470px;
+   margin-right: 20px;
+   border-radius: 3px;
+   opacity: 0;
+
+}
+
+
+/*#mobileAgenda
+{
+
+    width: 100%;
+    height: 470px;
+    position: fixed;
+    background-color: #030303;
+    display: none;
+    z-index: 8;
+    bottom: 700px;
+    opacity: 0;
+
+}
+
+
+#closeMobileAgenda
+{
+
+   width: 23px;
+   height: 23px;
+   position: relative;
+   bottom: 7px;
+   margin: auto;
+   margin-left: 25px;
+   cursor: pointer;
+   z-index: 8;
+
+}*/
+
+
+#agendaInfo
+{
+
+   width: 70%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: #99660C;
+   margin-top: -130px;
+   position: absolute;
+  overflow-y: scroll;
+  opacity: 0;
+
+}
+
+
+#mobileAgendaInfo
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: #99660C;
+   border: 1px solid #99660C;
+   overflow-y: scroll;
+   position: absolute;
+   opacity: 0;
+
+}
+
+
+#closeCalInfo
+{
+
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 270px;
+
+}
+
+
+#closeCalInfo:hover
+{
+
+   width: 25px;
+   height: 25px;
+
+}
+
+
+.evtContainer
+{
+
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 2px solid white;
+
+}
+
+
+.evtHead
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.evtHead h3
+{
+
+   text-align: center;
+   color: white;
+
+}
+
+
+.evtHead img
+{
+
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   color: white;
+
+}
+
+
+.evtBody
+{
+
+   width: 90%;
+   height: auto;
+   color: white;
+   font-size: 17px;
+   text-align: center;
+
+}
+
+
+.evtFoot
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.evtFoot p
+{
+
+   font-size: 15px;
+   color: white;
+   text-align: center;
+
+}
+
+
+#agendaContentContainer
+{
+
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    border: 1px solid #0A0A0A;
+    margin-top: -100px;
+    overflow: hidden;
+
+}
+
+
+#mobileAgendaContentContainer
+{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  border: 1px solid #0A0A0A;
+  background-color: #0A0A0A;
+  margin-top: -30px;
+  overflow: hidden;
+
+}
+
+
+
+#monthControles
+{
+
+   width: 100%;
+   height: 15%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #0A0A0A;
+   margin-bottom: -10px;
+   z-index: 2;
+
+}
+
+
+.arrowContainer
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 5px;
+
+}
+
+
+.arrowContainer img
+{
+
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+
+}
+
+
+.arrowContainer p
+{
+
+   text-align: center;
+   color: white;
+   font-size: 15px;
+   margin-top: 0px;
+
+}
+
+#monthControles h3, #mobileMonthControles h3
+{
+
+   color: white;
+   text-align: center;
+   margin-top: 5px;
+
+}
+
+
+
+.day_name
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+
+.day_name h3
+{
+
+  width: 80px;
+  height: 80px;
+
+}
+
+
+#agendaContent
+{
+
+   width: auto;
+   height: 85%;
+   border: 1px solid #0A0A0A;
+   position: relative;
+   top: 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.month
+{
+
+   width: 520px;
+   height: 550px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  /* bottom: -35px;*/
+
+}
+
+
+
+.days
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+
+
+.monthName
+{
+
+   color: white;
+
+
+}
+
+
+.weeks
+{
+
+   width: 57px;
+   height: 57px;
+   border: 1px solid white;
+   border-radius: 3px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   margin: 5px;
+   cursor: pointer;
+   position: relative;
+
+}
+
+
+
+#mobileAgendaContent .weeks
+{
+
+  width: 10%;
+  height: 57px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+
+}
+
+
+.weeks h4
+{
+
+  margin-right: 40px;
+  padding-left: 5px;
+  position: relative;
+  top: 10px;
+  color: #F59C00;
+
+}
+
+
+.weeks h5
+{
+
+  margin-left: 30px;
+  position: relative;
+  bottom: 10px;
+  color: #030303;
+
+}
+
+
+.controle
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   display: none;
+   display: none;
+
+}
+
+
+.controle img
+{
+
+   width: 20px;
+   height: 20px;
+   background-color: white;
+   position: absolute;
+   z-index: 1;
+   opacity: 0;
+   animation-name: big-small;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes big-small
+{
+
+    0%{width: 20px; height: 20px;}
+    50%{width: 25px; height: 25px;}
+    75%{width: 20px; height: 20px;}
+    100%{width: 25px; height: 25px;}
+
+}
+
+
+footer
+{
+
+   width: 100%;
+   height: 130px;
+   background-color: #030303;
+   margin-top: 290px;
+
+}
+
+/***************************************************************************************************************************/
+/******************************************MEDIA QUERIES*****************************************************************/
+/*********************************  width: 1100px*******************************************************/
+
+@media screen and (max-width: 480px)
+{
+
+   #logo
+   {
+
+
+
+   }
+
+   #mobileAgendaContent .weeks
+    {
+
+       width: 41px;
+       height: 41px;
+
+    }
+
+
+    .monthName
+    {
+
+       margin-top: -20px;
+
+    }
+
+    .weeks h4
+    {
+
+      font-size: 15px;
+      top: 15px;
+      padding-left: 10px;
+
+    }
+
+
+    .weeks h5
+    {
+
+       font-size: 13px;
+       margin-left: 20px;
+       bottom: 14px;
+
+    }
+
+
+    .welcomText
+    {
+
+       margin-top: -10px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1100px)
+{
+
+
+  .allMenus
+  {
+
+
+  }
+
+    #core
+    {
+
+        align-items: center;
+
+    }
+
+
+    .openCloseMenu
+    {
+
+        top: -60px;
+
+    }
+
+
+    #content
+    {
+
+        width: 100%;
+        margin-right: 0px;
+        opacity: 0.9;
+
+    }
+
+
+    .calendarContainer
+    {
+
+        display: none;
+
+    }
+
+
+    #content p
+    {
+
+        text-align: justify;
+        font-size: 20px;
+        width: 90%;
+
+    }
+
+
+    .settingsLogout p, .settingsLogout a
+    {
+
+
+
+    }
+
+
+    #bckImg
+    {
+
+        margin-top: -10px;
+
+    }
+
+
+    .welcomText
+    {
+
+       margin-top: -70px;
+
+    }
+
+
+
+
+}

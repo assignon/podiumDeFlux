@@ -1,0 +1,635 @@
+html, body
+{
+
+   padding: 0px;
+   margin: 0px;
+   background-image: url(../media/images/logowebsite.png);
+   background-repeat: no-repeat;
+
+}
+
+
+#footer
+{
+
+    top: 130px;
+
+}
+
+
+
+#settingContainer
+{
+
+  margin-bottom: -140px;
+  z-index: 8;
+  margin-left: 28%;
+
+}
+
+
+.allMenus
+{
+
+   top: 0px;
+   z-index: 6;
+
+}
+
+
+#nieuwsContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-bottom: 50px;
+
+}
+
+#core
+{
+
+   width: 100%;
+   height:auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+
+}
+
+
+.contentsBlogs
+{
+
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 100px;
+
+}
+
+
+#displayAllBlogs
+{
+
+   width: auto;
+   height: auto;
+   padding: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: 1px solid #F69E00;
+   border-radius: 3px;
+   background-color: #F69E00;
+   color: white;
+   font-size: 20px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: -30px;
+   position: relative;
+   bottom: 80px;
+   margin-right: 20px;
+
+}
+
+
+#displayAllBlogs img
+{
+
+   width: 35px;
+   height: 35px;
+   margin-right: 15px;
+
+}
+
+
+#displayAllBlogs:hover
+{
+
+   background-color: #936413;
+
+}
+
+
+#nieuwsContent
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+
+}
+
+
+.currentNieuws
+{
+
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.currentNieuws h1
+{
+
+   color: #F59C00;
+   text-align: center;
+   margin-bottom: -20px;
+
+}
+
+
+.currentNieuws h2
+{
+
+   color: #030303;
+   text-align: center;
+
+}
+
+
+.currentNieuws p
+{
+
+   width: 100%;
+   height: auto;
+   color: #030303;
+   font-size: 20px;
+   text-align: justify;
+
+}
+
+
+/*.allBlogsMobile
+{
+
+    width: 90%;
+    height: 150px;
+    border: 1px solid #030303;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+    opacity: 0;
+
+
+}
+
+
+.allBlogsMobile .blogsLink
+{
+
+  width: 180px;
+  min-width: 150px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #F59C00;
+  background-color: #F59C00;
+  border-radius: 3px;
+  margin: 10px;
+
+}
+
+
+.allBlogsMobile .blogsLink img
+{
+
+  width: 100%;
+  height: 60%;
+
+}*/
+
+
+.allBlogContainer
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   background-color: #030303;
+   opacity: 0;
+   position: fixed;
+   z-index: 7;
+
+}
+
+
+.allBlogContainer img
+{
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+
+#allBlogs
+{
+
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.blogsLink
+{
+
+   width: 300px;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   text-decoration: none;
+   border: 1px solid #F59C00;
+   background-color: #F59C00;
+   border-radius: 3px;
+   margin: 10px;
+
+}
+
+
+.blogsLink img
+{
+
+   width: 100%;
+   height: 200px;
+   margin-top: 0px;
+
+}
+
+
+.blogsLink h3
+{
+
+   text-align: center;
+   margin-top: 0px;
+   border-top: 1px solid #F59C00;
+   width: 90%;
+   height: 30px;
+   color: white;
+
+}
+
+
+#reactions
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+
+}
+
+
+#comments
+{
+
+    width: auto;
+    height: auto;
+    color: #030303;
+    font-size: 18px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 50px;
+
+}
+
+
+#writeComment
+{
+
+    width: auto;
+    height: auto;
+    color: #030303;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+
+}
+
+
+#reactions hr
+{
+
+   width: 90%;
+   color: #F59C00;
+   border: 1px solid #F59C00;
+
+}
+
+#reactionForm
+{
+
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#reactionForm textarea
+{
+
+   width: 99.8%;
+   height: 100px;
+   border: 1px solid #030303;
+   border-radius: 3px 3px 0px 0px;
+   color: #030303;
+   margin-bottom: 0px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+
+}
+
+
+#reactionForm input
+{
+
+   width: 100%;
+   height: 35px;
+   color: white;
+   background-color: #F59C00;
+   border: 1px solid #030303;
+   border-radius: 0px 0px 3px 3px;
+   cursor: pointer;
+   font-size: 20px;
+   text-align: center;
+
+}
+
+
+#reactions .separator2
+{
+
+  color: #030303;
+  border: 1px solid #030303;
+  margin-top: 50px;
+
+}
+
+
+#allcomments
+{
+
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 45px;
+   margin-top: 20px;
+
+}
+
+
+.commentsContainer
+{
+
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-bottom: 30px;
+
+}
+
+
+.userAvatar
+{
+
+   width: 70px;
+   height: 70px;
+   border: 2px solid #030303;
+   border-radius: 100%;
+
+}
+
+
+.commentContent
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   position: relative;
+   top: 20px;
+
+}
+
+
+
+.date_name
+{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -55px;
+  position: relative;
+  bottom: 30px;
+  margin-left: 10px;
+
+}
+
+
+.date_name h3
+{
+
+   color: #F59C00;
+
+}
+
+
+
+.commentContent p
+{
+
+   width: 100%;
+   height: auto;
+   color: #030303;
+   font-size: 18px;
+   text-align: left;
+   margin-left: 10px;
+   position: relative;
+
+}
+
+
+.date_name p
+{
+
+   font-size: 15px;
+
+}
+
+
+
+.commentContent .totalContent
+{
+
+   /*margin-top: -20px;*/
+
+}
+
+
+.commentContent img
+{
+
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+   margin-left: 5px;
+   position: relative;
+   bottom: 15px;
+
+}
+
+
+
+.commentsSeparator
+{
+
+   color: #030303;
+   border: 1px solid #030303;
+   margin-bottom: 30px;
+   margin-top: -20px;
+
+}
+
+
+footer
+{
+
+   width: 100%;
+   height: 130px;
+   background-color: #030303;
+   margin-top: 50px;
+
+}
+
+
+/******************************************************************************************************************************************************/
+/********************************************MEDIA QUERIES*********************************************************************************************/
+/******************************************************************************************************************************************************/
+
+@media screen and (max-width: 1000px)
+{
+
+  #nieuwsContent
+  {
+
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+  }
+
+
+  .currentNieuws h2
+  {
+
+     font-size: 25px;
+
+  }
+
+
+  #reactions
+  {
+
+     width: 100%;
+
+  }
+
+
+  #allcomments
+  {
+
+     margin-left: 0px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 650px)
+{
+
+    #displayAllBlogs
+    {
+
+        bottom: 0px;
+        font-size: 17px;
+
+    }
+
+
+    #displayAllBlogs img
+    {
+
+      width: 30px;
+      height: 30px;
+
+    }
+
+}

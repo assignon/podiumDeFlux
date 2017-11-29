@@ -1,0 +1,447 @@
+html, body
+{
+
+   padding: 0px;
+   margin: 0px;
+   background-image: url(../media/images/logowebsite.png);
+   background-repeat: no-repeat;
+
+}
+
+
+#footer
+{
+
+    top: 170px;
+
+}
+
+
+.allMenus
+{
+
+   top: 0px;
+   z-index: 6;
+
+}
+
+
+.usersForms
+{
+
+   width: 75%;
+   height: auto;
+   margin-bottom: -600px;
+   position: relative;
+   bottom: 700px;
+
+}
+
+
+
+.addUpdateForm
+{
+
+   width: 100%;
+   height: 300px;
+   z-index: 9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-left: -10px;
+
+
+
+}
+
+
+.deleteForm
+{
+
+  width: 100%;
+  height: 300px;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+
+.addBackColor, .deleteBackColor
+{
+
+   background-color: #030303;
+   opacity: 0.97;
+   position: absolute;
+   width: 100%;
+   height: 300px;
+   z-index: 8;
+
+}
+
+
+
+.addFormInputs
+{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: 9;
+
+}
+
+
+.deleteFormInputs
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: 9;
+
+}
+
+
+
+.addFormInputs img
+{
+
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+
+.deleteFormInputs img
+{
+
+  margin-top: -10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+
+.addFormInputs p
+{
+
+   color: white;
+   font-size: 18px;
+   margin-bottom: 20px;
+   margin-left: 400px;
+   width: 90%;
+   height: auto;
+   position: relative;
+   top: 10px;
+
+}
+
+
+.deleteFormInputs p
+{
+
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 700px;
+  width: 90%;
+  height: auto;
+  position: relative;
+  top: 10px;
+
+}
+
+
+.addFormInputs input, .deleteFormInputs input
+{
+
+   width: 400px;
+   height: 37px;
+   border: 1px solid #F59C00;
+   border-radius: 3px;
+   padding-left: 10px;
+   color: #030303;
+   font-size: 18px;
+   margin: 10px;
+
+}
+
+
+.addFormInputs input[type="submit"], .deleteForm input[type="submit"]
+{
+
+    width: 414px;
+    height: 40px;
+    text-align: center;
+    background-color: #F59C00;
+    color: white;
+    cursor: pointer;
+    padding-left: 0px;
+
+}
+
+
+.addFormInputs input[type="submit"]:hover, .deleteForm input[type="submit"]:hover
+{
+
+    background-color: #8E5D06;
+
+}
+
+
+
+#settingContainer
+{
+
+
+  margin-bottom: -135px;
+  z-index: 8;
+  margin-left: 1050px;
+
+}
+
+
+.userManager_container
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+#core
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+
+
+#usersContainer
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    /*margin-right: 300px;*/
+
+}
+
+
+.globalUsers
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.usersActions
+{
+
+   width: auto;
+   height: auto;
+   position: relative;
+   margin-bottom: 0px;
+   z-index: 2;
+
+
+}
+
+
+.updateUserData, .deleteUserData
+{
+
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   padding: 5px;
+   background-color: white;
+   border: 2px solid #030303;
+   border-radius: 100%;
+   padding: 3px;
+   position: absolute;
+   opacity: 0;
+
+}
+
+
+.updateUserData:hover, .deleteUserData:hover
+{
+
+    background-color: #030303;
+    border: 2px solid white;
+
+}
+
+
+
+.allUsers
+{
+
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+
+
+.allUsers:hover .users_name
+{
+
+   transition: opacity 1.0s linear 0s;
+   opacity: 0.95;
+   z-index: 3;
+
+}
+
+
+.allUsers img
+{
+
+    width: 100%;
+    height: 100%;
+    border: 2px solid #030303;
+    border-radius: 100%;
+    z-index: 3;
+
+}
+
+
+
+
+.users_name
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #030303;
+   background-color: #030303;
+   opacity: 0;
+   z-index: 2;
+   border-radius: 100%;
+   margin-top: -187px;
+   margin-left: 1px;
+
+}
+
+
+.users_name p
+{
+
+   font-size: 20px;
+   color: white;
+   text-align: center;
+
+}
+
+
+#usersData
+{
+
+   width: 0%;
+   height: 90%;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: flex-end;
+   align-items: center;
+   position: fixed;
+   bottom: 20px;
+   background-color: #030303;
+   opacity: 0.9;
+   z-index: 5;
+
+}
+
+
+
+#usersData img
+{
+
+    width: 130px;
+    height: 130px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+
+#usersData .closeUsersData
+{
+
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+
+.nameEmail
+{
+
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nameEmail p
+{
+
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+
+}
